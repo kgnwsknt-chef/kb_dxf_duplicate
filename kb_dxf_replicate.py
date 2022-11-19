@@ -1,6 +1,6 @@
 #
-# kb_dxf_replicate.py by 2022-11-19 kgnwsknt-chef
-#
+# kb_dxf_replicate.py
+#                       2022 kgnwsknt-chef
 import sys
 import os
 import json
