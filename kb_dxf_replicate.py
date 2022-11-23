@@ -132,10 +132,11 @@ def draw_object(x,y, msp_in, msp_out):
             msp_out.add_arc(pos,r,sta,end)
         if e.dxftype()=="LWPOLYLINE":
             points = e.get_points()
+            flag = e.dxf.flags
             points_aft = []
             for i, row in enumerate(points):
                 points_aft.append(tuple([row[0]+x,row[1]+y,row[2],row[3],row[4]]))
-            msp_out.add_lwpolyline(points_aft)
+            lwp = msp_out.add_lwpolyline(points_aft,"xyseb",close=flag)
 #________________________________________
 def draw_keybox(x,y,u,msp):
     PITCH=19.05
