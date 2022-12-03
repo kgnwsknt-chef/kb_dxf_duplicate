@@ -7,7 +7,7 @@ python kb_dxf_replicate.py KLEouttput.json input.dxf
 output file name: KLEouttput_json.dxf
 ## Notes
 * unit is millimeter
-* center of input dxf should be one of 1 key
+* origin of input dxf should be center of 1 key
 * key rotatation is not implemented
 
 ## Requirements
