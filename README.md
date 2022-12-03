@@ -7,6 +7,7 @@ python kb_dxf_replicate.py KLEouttput.json input.dxf
 output file name: KLEouttput_json.dxf
 ## Notes
 * unit is millimeter
+* key pitch is 19.05 mm
 * origin of input dxf should be center of 1 key
 * key rotatation is not implemented
 
