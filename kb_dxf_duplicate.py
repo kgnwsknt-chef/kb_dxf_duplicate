@@ -1,5 +1,5 @@
 #
-# kb_dxf_replicate.py
+# kb_dxf_duplicate.py
 #                       2022 kgnwsknt-chef
 import sys
 import os
@@ -9,7 +9,7 @@ import ezdxf
 #________________________________________
 def main():
     if len(sys.argv)<3:
-        print('usage: python kb_dxf_replicate.py KLE.json input.dxf')
+        print('usage: python kb_dxf_duplicate.py KLE.json input.dxf')
         return
     kle_fname = sys.argv[1]
     indxf_fname = sys.argv[2]
